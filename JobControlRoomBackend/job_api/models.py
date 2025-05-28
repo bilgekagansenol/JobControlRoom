@@ -38,7 +38,7 @@ Alanlar:
     cover_letter = models.TextField(blank=True ,null = True)
     contact_email = models.EmailField(null = True, blank= True)
     notes = models.TextField(blank  = True , null =True)
-    last_updated = models.DateTimeField(auto_now_add=True)
+    last_updated = models.DateTimeField(auto_now=True)
     application_url =models.URLField(blank=True ,null= True)
 
     def __str__(self):
